@@ -8,5 +8,4 @@ const songSchema = new mongoose.Schema({
 
 // db schema
 
-
 export const Song = mongoose.model("Song", songSchema);
